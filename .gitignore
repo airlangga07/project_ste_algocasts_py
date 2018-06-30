@@ -4,6 +4,7 @@
 bin/
 include/
 pip-selfcheck.json
+.pytest_cache
 
 # Django related 
 # src/<yourproject>/settings/local.py

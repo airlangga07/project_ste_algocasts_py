@@ -1,3 +1,4 @@
 [
-  "exercises/testing/test_simple.py::test_answer"
+  "exercises/reversestring/test_reversestring.py::test_reverse_reverses_a_string_no_whitespace",
+  "exercises/reversestring/test_reversestring.py::test_reverse_reverses_a_string_with_whitespace"
 ]
