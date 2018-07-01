@@ -9,5 +9,13 @@ reversestring('hello') == 'hello'
 reversestring('Greetings!') == '!sgniteerG'
 '''
 
+# Solution #1
+# def reversestring(string):
+#    return string[::-1]
+
+# Solution #2
 def reversestring(string):
-    return string[::-1]
+    reverse = ''
+    for character in string:
+        reverse = character + reverse
+    return reverse
