@@ -14,8 +14,13 @@ reversestring('Greetings!') == '!sgniteerG'
 #    return string[::-1]
 
 # Solution #2
+# def reversestring(string):
+    # reverse = ''
+    # for character in string:
+        # reverse = character + reverse
+    # return reverse
+
+# Solution #3
+from functools import reduce
 def reversestring(string):
-    reverse = ''
-    for character in string:
-        reverse = character + reverse
-    return reverse
+    return reduce((lambda reverse, character: character + reverse), string)
